@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+.home-canvas{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    background-color: white;
+
+}

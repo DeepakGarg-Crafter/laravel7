@@ -1,0 +1,39 @@
+.navbar-canvas{
+    width: 100vw;
+    height: 10vh;
+    background-color: green;
+    border: none;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.navbar-btn-sec{
+    width: fit-content;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    gap: 20px;
+    
+}
+.navbar-btn{
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #9cb3a5;
+  text-decoration: none;
+  cursor: pointer;
+  
+
+}
+.navbar-btn:hover{
+    color: white;
+
+}
+.navbar-btn:focus{
+    border-bottom: 2px solid blue;
+    color: orange;
+}

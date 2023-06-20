@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dashboard-canvas{
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: row;
+
+}
+.dashboard-left-sec{
+ width: 15vw;
+ height: 100vh;
+ background-color: purple;
+}
+
+.dashboard-right-sec{
+    width: 85vw;
+    height: 100vh;
+    overflow: auto;
+}
